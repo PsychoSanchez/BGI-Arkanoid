@@ -1,2 +1,2 @@
-# BGI-Arcanoid
+# BGI-Arkanoid
 Multi-Threading Arcanoid on bgi
