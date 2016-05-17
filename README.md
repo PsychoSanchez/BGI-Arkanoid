@@ -1,2 +1,3 @@
 # BGI-Arkanoid
-Multi-Threading Arcanoid on bgi
+Multi-Threading Arkanoid on bgi
+Last updated December 2013
