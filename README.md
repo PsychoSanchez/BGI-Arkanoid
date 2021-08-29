@@ -12,6 +12,10 @@ Project originally built using Visual Studio 2010 so it requires VS 2010 or high
 
 ## Preview
 
+### Main menu
+
 ![Application main menu](https://raw.githubusercontent.com/PsychoSanchez/BGI-arkanoid/master/readme/main-menu.jpg)
+
+### Gameplay
 
 ![Application game](https://raw.githubusercontent.com/PsychoSanchez/BGI-arkanoid/master/readme/game.jpg)
