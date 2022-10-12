@@ -1,23 +1,22 @@
 # BGI-Arkanoid
 
-Very bad implementation of arkanoid game on C built using [WinBGI library (2003)](www.cs.colorado.edu/~main/cs1300/doc/bgi/bgi.html)
-
-Project created and last updated December 2013
-
-For more information about WinBGI, please see:
-www.cs.colorado.edu/~main/cs1300/doc/bgi/index.html
+Multi-Threading Arkanoid on bgi
+Last updated December 2013
 
 ## Setup
 
-- Project originally built using Visual Studio 2010 so it requires msbuild from VS 2010 or higher
-- After compilation all resources (\*.txt files in root) should be put next to compiled executable file
+This project is using WinBGI Library that is designed only for Windows.
 
-## Preview
+For documentation of the Winbgi library, please see:
 
-### Main menu
+[Borland Graphics Interface (BGI) for Windows](www.cs.colorado.edu/~main/cs1300/doc/bgi/bgi.html)
+[The WINBGIM Library](www.cs.colorado.edu/~main/cs1300/doc/bgi/index.html)
 
-![Application main menu](https://raw.githubusercontent.com/PsychoSanchez/BGI-arkanoid/master/readme/main-menu.jpg)
+Originally build with Visual Studio 2010 and later ported to VS 2019.
 
-### Gameplay
+To build project required VS 2019 MsBuild.exe. It can be found in [Microsoft Build Tools](https://visualstudio.microsoft.com/downloads/?q=build+tools)
 
-![Application game](https://raw.githubusercontent.com/PsychoSanchez/BGI-arkanoid/master/readme/game.jpg)
+You can use Visual Studio IDE or run build commands from cli.
+Usually MsBuild.exe located somewhere in visual studio installation folder `C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe`
+
+Then run `"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe" ./bgi.vcxproj /p:configuration=debug`

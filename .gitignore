@@ -1,5 +1,6 @@
-Debug
 debug
-Release
-release
 ipch
+release
+Bin
+.vs
+.vscode
